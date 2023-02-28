@@ -645,12 +645,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/Htpmoviesdnk')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ ʟɪɴᴋ', url='https://t.me/+BL30XPOxWUU4MGM9')
         ], [
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
          ],[
-            InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='surprise')
+            InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜsᴇ', url='https://t.me/Htpmoviesdnk/230')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
